@@ -19,6 +19,6 @@ public class findByLinkTest2 {
            WebElement text= driver.findElement(By.linkText("<span class=\"hvr-underline-from-left-dark\">HOME</span>"));
             System.out.println(text.getText());
             driver.close();
-//jbjkewkllwc;a/
+
 }
 }
