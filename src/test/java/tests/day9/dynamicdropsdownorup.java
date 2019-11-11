@@ -17,7 +17,9 @@ public class dynamicdropsdownorup {
 
         driver.findElement(By.xpath("//a[@value='BLR']")).click();
         Thread.sleep(3000);
-        driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
+        //driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click(); bu yada alttaki kullanilabilir
+        driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
+        // iki tane xpath arada bir bosluk kullanilarak eklenmis
 
     }
 
